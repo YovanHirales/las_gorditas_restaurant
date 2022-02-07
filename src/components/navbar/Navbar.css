@@ -1,0 +1,188 @@
+/* nav */
+nav {
+	padding: 5px 20px;
+	font-size: 18px;
+	background-color: #e665c4;
+	height: 11vh;
+}
+h1 {
+	font-family: 'Abel';
+	font-weight: 400;
+}
+.main {
+	list-style: none;
+}
+.link {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+.item:hover {
+	text-decoration: underline;
+}
+.logo .link {
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Abel', 'monospace';
+	width: auto;
+}
+li {
+	padding: 30px 5px;
+}
+.item {
+	text-align: center;
+	font-family: 'Source Code Pro', monospace;
+}
+.item.first {
+	border-bottom: 1px black solid;
+	font-size: 20px;
+}
+
+/* mobile nav */
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.item {
+	width: 100%;
+	order: 2;
+	display: none;
+}
+.toggle {
+	order: 1;
+	cursor: pointer;
+}
+.bars {
+	background: black;
+	display: inline-block;
+	height: 2px;
+	width: 30px;
+	position: relative;
+}
+.bars::before {
+	background: black;
+	display: inline-block;
+	content: '';
+	height: 2px;
+	width: 30px;
+	top: 10px;
+	position: absolute;
+}
+.bars::after {
+	background: black;
+	display: inline-block;
+	content: '';
+	height: 2px;
+	width: 30px;
+	top: -10px;
+	position: absolute;
+}
+.item.active {
+	display: block;
+}
+
+/* tablet nav */
+
+@media all and (min-width: 468px) {
+	nav {
+		height: auto;
+	}
+	.main {
+		justify-content: center;
+	}
+	.logo {
+		flex: 1;
+	}
+	.item.first {
+		display: block;
+		width: auto;
+		order: 1;
+		border-bottom: none;
+		margin: 0 30px;
+		text-decoration: underline;
+	}
+	.toggle {
+		order: 2;
+	}
+	.item {
+		order: 3;
+	}
+}
+
+/* desktop nav */
+@media all and (min-width: 768px) {
+	.item {
+		display: block;
+		width: auto;
+	}
+	.toggle {
+		display: none;
+	}
+	.logo {
+		order: 0;
+	}
+	.item.first {
+		order: 1;
+		text-decoration: underline;
+		margin: 0 0;
+	}
+	.item {
+		order: 2;
+	}
+	.main li {
+		padding: 15px 10px;
+	}
+}
+
+/* footer */
+footer {
+	padding: 2%;
+}
+.foot-wrapper {
+	display: flex;
+	height: auto;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.stack,
+.links,
+.foot-header {
+	font-family: 'Source Code Pro', monospace;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 2rem;
+}
+
+.stack {
+	margin-top: 30px;
+}
+
+.foot-header {
+	margin: 30px 0;
+}
+
+.links {
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+/* tablet+ footer */
+@media all and (min-width: 468px) {
+	.foot-wrapper {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.links {
+		margin-bottom: 0;
+	}
+	.stack {
+		margin-top: 0;
+	}
+}
