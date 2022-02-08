@@ -3,15 +3,16 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //Pages
-import Home from './pages/Home';
-import Menu from './pages/Menu';
-import Ourstory from './pages/Ourstory';
-import Photos from './pages/Photos';
-import Contact from './pages/Contact';
-import Error from './pages/Error';
+import Home from './pages/home/Home';
+import Menu from './pages/menu/Menu';
+import Ourstory from './pages/ourstory/Ourstory';
+import Photos from './pages/photos/Photos';
+import Contact from './pages/contact/Contact';
+import Error from './pages/error/Error';
 
 //Components
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 				<Route path='/las_gorditas_restaurant/contact' element={<Contact />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
+			<Footer />
 		</Router>
 	);
 }

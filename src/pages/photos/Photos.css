@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.img-grid {
+	display: grid;
+	gap: 1rem;
+	padding: 3% 10%;
+	background-color: #e665c4;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-auto-rows: 240px;
+}
+.img-grid div {
+	background-size: cover;
+	background-position: center;
+}
+
+.card-tall {
+	grid-row: span 2 / auto;
+}
+
+.card-wide {
+	grid-column: span 2 / auto;
+}

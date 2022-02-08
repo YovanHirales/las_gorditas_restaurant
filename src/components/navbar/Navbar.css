@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 /* nav */
 nav {
 	padding: 5px 20px;
 	font-size: 18px;
 	background-color: #e665c4;
-	height: 11vh;
+	height: auto;
 }
 h1 {
 	font-family: 'Abel';
-	font-weight: 400;
+	font-weight: 200;
 }
 .main {
 	list-style: none;
@@ -57,7 +60,7 @@ li {
 .bars {
 	background: black;
 	display: inline-block;
-	height: 2px;
+	height: 1px;
 	width: 30px;
 	position: relative;
 }
@@ -65,7 +68,7 @@ li {
 	background: black;
 	display: inline-block;
 	content: '';
-	height: 2px;
+	height: 1px;
 	width: 30px;
 	top: 10px;
 	position: absolute;
@@ -74,7 +77,7 @@ li {
 	background: black;
 	display: inline-block;
 	content: '';
-	height: 2px;
+	height: 1px;
 	width: 30px;
 	top: -10px;
 	position: absolute;

@@ -1,0 +1,40 @@
+.contact-page-split {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 8%;
+	font-family: 'Abel', 'monospace';
+	background-color: #e665c4;
+}
+h4 {
+	font-size: 2em;
+	margin: 20px 0;
+	font-weight: 500;
+}
+.p1,
+.p2 {
+	font-size: 1em;
+	margin: 10px 0;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.p1 p {
+	line-height: 1.8rem;
+}
+.p2 p {
+	line-height: 1.8rem;
+}
+
+@media all and (min-width: 768px) {
+	.contact-page-split {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.contact-page-info {
+		align-self: flex-start;
+	}
+	h4 {
+		margin-top: 0;
+	}
+}

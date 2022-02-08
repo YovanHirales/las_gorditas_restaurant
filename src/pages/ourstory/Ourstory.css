@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.os-container {
+	font-family: Source Code Pro, sans-serif;
+	line-height: 1.7;
+	word-wrap: break-word;
+	background-color: #e665c4;
+}
+.wrapper {
+	padding: 10%;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+	font-family: Abel, sans-serif;
+}
+
+@media all and (min-width: 768px) {
+	.wrapper h1 {
+		margin-bottom: 60px;
+		font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+	}
+}
+
+.img-wrap {
+	display: flex;
+	justify-content: center;
+}
+.story-img {
+	width: 100%;
+}
