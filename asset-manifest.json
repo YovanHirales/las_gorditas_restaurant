@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/las_gorditas_restaurant/static/css/main.f56611eb.css",
-    "main.js": "/las_gorditas_restaurant/static/js/main.f79e3abf.js",
+    "main.css": "/las_gorditas_restaurant/static/css/main.33dcd3e1.css",
+    "main.js": "/las_gorditas_restaurant/static/js/main.9c0e2e84.js",
+    "static/media/img13.JPG": "/las_gorditas_restaurant/static/media/img13.46e29bda332d35aa1362.JPG",
+    "static/media/raspados.jpg": "/las_gorditas_restaurant/static/media/raspados.41a09f01c55990ec9485.jpg",
+    "static/media/img12.JPG": "/las_gorditas_restaurant/static/media/img12.7e83755782e934aa560b.JPG",
+    "static/media/img15.JPG": "/las_gorditas_restaurant/static/media/img15.7e83755782e934aa560b.JPG",
+    "static/media/img4.JPG": "/las_gorditas_restaurant/static/media/img4.860e5ff49f6a1db06955.JPG",
+    "static/media/img7.JPG": "/las_gorditas_restaurant/static/media/img7.a03f6d6151f8ee06aba6.JPG",
+    "static/media/Restaurantview.jpg": "/las_gorditas_restaurant/static/media/Restaurantview.59f8c3a6f9c1ad1b0d05.jpg",
+    "static/media/img14.JPG": "/las_gorditas_restaurant/static/media/img14.71fdac2edb82e7fea08a.JPG",
+    "static/media/img1.jpg": "/las_gorditas_restaurant/static/media/img1.25edcb88b9ffdcadb479.jpg",
+    "static/media/gorditasStack.jpg": "/las_gorditas_restaurant/static/media/gorditasStack.00e9349fd37035760541.jpg",
+    "static/media/img3.jpg": "/las_gorditas_restaurant/static/media/img3.d137faa90f5923ee594c.jpg",
+    "static/media/img11.jpg": "/las_gorditas_restaurant/static/media/img11.80e01cce29a183bb2771.jpg",
+    "static/media/Menu2.png": "/las_gorditas_restaurant/static/media/Menu2.0444a3089b3e40d5e2d7.png",
+    "static/media/Menu5.jpg": "/las_gorditas_restaurant/static/media/Menu5.5ea674a732e6267908e0.jpg",
+    "static/media/Menu3.jpg": "/las_gorditas_restaurant/static/media/Menu3.b6bb6f2290940506c04f.jpg",
+    "static/media/Menu6.jpg": "/las_gorditas_restaurant/static/media/Menu6.d3f071988f24e71f2ae2.jpg",
+    "static/media/Menu4.jpg": "/las_gorditas_restaurant/static/media/Menu4.525a9245ee6451fe6059.jpg",
+    "static/media/Menu1.jpg": "/las_gorditas_restaurant/static/media/Menu1.0624359c8a1e4f358cc4.jpg",
     "index.html": "/las_gorditas_restaurant/index.html",
-    "main.f56611eb.css.map": "/las_gorditas_restaurant/static/css/main.f56611eb.css.map",
-    "main.f79e3abf.js.map": "/las_gorditas_restaurant/static/js/main.f79e3abf.js.map"
+    "main.33dcd3e1.css.map": "/las_gorditas_restaurant/static/css/main.33dcd3e1.css.map",
+    "main.9c0e2e84.js.map": "/las_gorditas_restaurant/static/js/main.9c0e2e84.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56611eb.css",
-    "static/js/main.f79e3abf.js"
+    "static/css/main.33dcd3e1.css",
+    "static/js/main.9c0e2e84.js"
   ]
 }
