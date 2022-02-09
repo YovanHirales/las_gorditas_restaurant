@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/las_gorditas_restaurant/static/css/main.33dcd3e1.css",
-    "main.js": "/las_gorditas_restaurant/static/js/main.9c0e2e84.js",
+    "main.css": "/las_gorditas_restaurant/static/css/main.52c87c15.css",
+    "main.js": "/las_gorditas_restaurant/static/js/main.ba2bd4b2.js",
     "static/media/img13.JPG": "/las_gorditas_restaurant/static/media/img13.46e29bda332d35aa1362.JPG",
     "static/media/raspados.jpg": "/las_gorditas_restaurant/static/media/raspados.41a09f01c55990ec9485.jpg",
     "static/media/img12.JPG": "/las_gorditas_restaurant/static/media/img12.7e83755782e934aa560b.JPG",
@@ -21,11 +21,11 @@
     "static/media/Menu4.jpg": "/las_gorditas_restaurant/static/media/Menu4.525a9245ee6451fe6059.jpg",
     "static/media/Menu1.jpg": "/las_gorditas_restaurant/static/media/Menu1.0624359c8a1e4f358cc4.jpg",
     "index.html": "/las_gorditas_restaurant/index.html",
-    "main.33dcd3e1.css.map": "/las_gorditas_restaurant/static/css/main.33dcd3e1.css.map",
-    "main.9c0e2e84.js.map": "/las_gorditas_restaurant/static/js/main.9c0e2e84.js.map"
+    "main.52c87c15.css.map": "/las_gorditas_restaurant/static/css/main.52c87c15.css.map",
+    "main.ba2bd4b2.js.map": "/las_gorditas_restaurant/static/js/main.ba2bd4b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.33dcd3e1.css",
-    "static/js/main.9c0e2e84.js"
+    "static/css/main.52c87c15.css",
+    "static/js/main.ba2bd4b2.js"
   ]
 }
