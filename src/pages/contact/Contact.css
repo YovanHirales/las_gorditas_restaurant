@@ -5,7 +5,7 @@
 	align-items: center;
 	padding: 8%;
 	font-family: 'Abel', 'monospace';
-	background-color: #e665c4;
+	background-color: #e665c4; /*#e665c4*/
 }
 h4 {
 	font-size: 2em;
@@ -26,6 +26,48 @@ h4 {
 	line-height: 1.8rem;
 }
 
+.contact-page-info {
+	align-self: flex-start;
+}
+
+form {
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+label {
+	margin-bottom: 0.5rem;
+	font-family: 'Abel', 'monospace';
+	font-weight: 500;
+}
+
+input {
+	height: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+textarea {
+	height: 6rem;
+	margin-bottom: 2rem;
+}
+
+.send-button {
+	background-color: #e665c4;
+	border: 2px solid black;
+	font-size: 1rem;
+	padding: 1rem;
+	margin: 0;
+	width: 6rem;
+	height: 4rem;
+}
+.send-button:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
 @media all and (min-width: 768px) {
 	.contact-page-split {
 		flex-direction: row;
@@ -37,4 +79,15 @@ h4 {
 	h4 {
 		margin-top: 0;
 	}
+	input,
+	textarea {
+		width: 30rem;
+	}
+	form {
+		margin-left: 25rem;
+	}
+}
+
+.ty {
+	margin-right: 15rem;
 }

@@ -88,8 +88,9 @@ a {
 }
 .split img {
 	margin: 7% 0;
+	width: 80vw;
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 520px) {
 	.bg-pink .split {
 		flex-direction: row;
 		align-items: center;
@@ -116,7 +117,7 @@ a {
 .bg-blue h2 {
 	color: white;
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 520px) {
 	.bg-blue .split {
 		flex-direction: row-reverse;
 		align-items: center;
@@ -153,7 +154,7 @@ a {
 	font-size: 2.2em;
 	font-weight: 400;
 }
-button {
+.directions {
 	background-color: #f1a638;
 	border: 2px solid black;
 	font-size: 1.5em;
@@ -161,12 +162,12 @@ button {
 	width: 180px;
 	margin: 10%;
 }
-button:hover {
+.directions:hover {
 	background-color: black;
 	color: #f1a638;
 	cursor: pointer;
 }
-button:hover a {
+.directions:hover a {
 	color: #f1a638;
 }
 

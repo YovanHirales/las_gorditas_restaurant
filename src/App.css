@@ -32,7 +32,6 @@ code,
 del,
 dfn,
 em,
-img,
 ins,
 kbd,
 q,
@@ -111,6 +110,7 @@ section {
 body {
 	line-height: 1;
 	font-size: 16px;
+	background-color: #e665c4;
 }
 ol,
 ul {
