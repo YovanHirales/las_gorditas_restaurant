@@ -19,7 +19,7 @@ function App() {
 		<Router>
 			<Navbar />
 			<Routes>
-				<Route path='/las_gorditas_restaurant' element={<Home />} />
+				<Route path='/' element={<Home />} />
 				<Route path='/las_gorditas_restaurant/menu' element={<Menu />} />
 				<Route
 					path='/las_gorditas_restaurant/ourstory'
