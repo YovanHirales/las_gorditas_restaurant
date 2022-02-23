@@ -1,11 +1,20 @@
-.hero-img {
+/* .hero-img {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../images/Restaurantview.jpg);
+		url(../../../images/pattern.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 91vh;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.hero-links {
+.header-text {
+	font-size: 6rem;
+	font-weight: 700;
+	color: #f1a638;
+	font-family: Abel;
+} */
+/* .hero-links {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -19,7 +28,7 @@
 	font-size: 2.9em;
 	color: #f1a638;
 	text-decoration: underline;
-}
+} */
 
 a {
 	color: black;
@@ -46,13 +55,13 @@ a {
 }
 .bg-orange .center {
 	font-family: 'Abel', sans-serif;
-	font-size: calc((2.2 - 1) * 1.2vh + 1rem);
 	font-weight: 100;
 	text-align: center;
 	margin: 10% 0;
 }
 .center p {
 	margin-bottom: 20px;
+	font-size: 2rem;
 }
 
 /* section 2 */

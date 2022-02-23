@@ -4,15 +4,15 @@ import './Footer.css';
 function Footer() {
 	return (
 		<footer>
-			<div class='foot-wrapper'>
-				<div class='foot-info'>
+			<div className='foot-wrapper'>
+				<div className='foot-info'>
 					<p>lasgorditaslv@gmail.com</p>
 					<p>(702)998-9720</p>
 				</div>
-				<div class='foot-header'>
+				<div className='foot-header'>
 					<h1>Las Gorditas</h1>
 				</div>
-				<div class='foot-links'>
+				<div className='foot-links'>
 					<p>
 						<a
 							target='_blank'
