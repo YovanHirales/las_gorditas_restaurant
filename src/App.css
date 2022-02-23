@@ -89,6 +89,7 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -108,9 +109,9 @@ section {
 }
 body {
 	line-height: 1;
+	font-size: 16px;
 	background-color: #e665c4;
 }
-
 ol,
 ul {
 	list-style: none;
@@ -129,14 +130,4 @@ q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-html {
-	font-size: 16px;
-}
-
-@media all and (max-width: 500px) {
-	html {
-		font-size: 12px;
-	}
 }

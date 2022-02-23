@@ -1,6 +1,6 @@
 import React from 'react';
 import './Ourstory.css';
-import RestaurantView from '../../../images/Restaurantview.jpg';
+import RestaurantView from '../images/Restaurantview.jpg';
 
 function Ourstory() {
 	return (

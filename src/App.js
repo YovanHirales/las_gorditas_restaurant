@@ -3,12 +3,12 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //Pages
-import Home from './components/pages/home/Home';
-import Menu from './components/pages/menu/Menu';
-import Ourstory from './components/pages/ourstory/Ourstory';
-import Photos from './components/pages/photos/Photos';
-import Contact from './components/pages/contact/Contact';
-import Error from './components/pages/error/Error';
+import Home from './pages/home/Home';
+import Menu from './pages/menu/Menu';
+import Ourstory from './pages/ourstory/Ourstory';
+import Photos from './pages/photos/Photos';
+import Contact from './pages/contact/Contact';
+import Error from './pages/error/Error';
 
 //Components
 import Navbar from './components/navbar/Navbar';

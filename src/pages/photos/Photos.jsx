@@ -1,15 +1,15 @@
 import React from 'react';
-import img1 from '../../../images/img1.jpg';
-import img3 from '../../../images/img3.jpg';
-import img4 from '../../../images/img4.JPG';
-import img7 from '../../../images/img7.JPG';
-import img11 from '../../../images/img11.jpg';
-import img12 from '../../../images/img12.JPG';
-import img13 from '../../../images/img13.JPG';
-import raspados from '../../../images/raspados.jpg';
-import gorditasStack from '../../../images/gorditasStack.jpg';
-import img14 from '../../../images/img14.JPG';
-import img15 from '../../../images/img15.JPG';
+import img1 from '../images/img1.jpg';
+import img3 from '../images/img3.jpg';
+import img4 from '../images/img4.JPG';
+import img7 from '../images/img7.JPG';
+import img11 from '../images/img11.jpg';
+import img12 from '../images/img12.JPG';
+import img13 from '../images/img13.JPG';
+import raspados from '../images/raspados.jpg';
+import gorditasStack from '../images/gorditasStack.jpg';
+import img14 from '../images/img14.JPG';
+import img15 from '../images/img15.JPG';
 
 import './Photos.css';
 

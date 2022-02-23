@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import RaspadoPicture from '../../../images/raspados.jpg';
-import GorditasStack from '../../../images/gorditasStack.jpg';
+import GorditaStackPicture from '../images/gorditasStack.jpg';
+import RaspadoPicture from '../images/raspados.jpg';
 import './Home.css';
 
 function Home() {
 	return (
 		<Fragment>
 			{/* Header */}
+			<header className='hero-img'></header>
 
 			<section className='bg-orange'>
 				<div className='center'>
@@ -38,7 +39,7 @@ function Home() {
 					</div>
 					<img
 						className='gordita-stack'
-						src={GorditasStack}
+						src={GorditaStackPicture}
 						alt='Stack of gorditas'
 					/>
 				</div>
