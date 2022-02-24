@@ -12,16 +12,14 @@ import Menu6 from '../images/Menu6.jpg';
 function Menu() {
 	return (
 		<section className='menu-container'>
-			<div className='menu-wrapper'>
-				<span></span>
-				<img className='menu-img' src={Menu1} alt='' />
-				<img className='menu-img' src={Menu2} alt='' />
-				<img className='menu-img' src={Menu3} alt='' />
-				<img className='menu-img' src={Menu4} alt='' />
-				<img className='menu-img' src={Menu5} alt='' />
-				<img className='menu-img' src={Menu6} alt='' />
-				<span></span>
-			</div>
+			<span></span>
+			<img className='menu-img' src={Menu1} alt='' />
+			<img className='menu-img' src={Menu2} alt='' />
+			<img className='menu-img' src={Menu3} alt='' />
+			<img className='menu-img' src={Menu4} alt='' />
+			<img className='menu-img' src={Menu5} alt='' />
+			<img className='menu-img' src={Menu6} alt='' />
+			<span></span>
 		</section>
 	);
 }

@@ -3,22 +3,22 @@
 		url(../images/Restaurantview.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 91vh;
+	height: 80vh;
 }
 .hero-links {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
 	justify-content: center;
-	height: 600px;
+	height: 100%;
 	padding-left: 11%;
 	list-style: none;
 	font-family: 'Abel', monospace;
 }
-.hero-img li .link {
-	font-size: 2.9em;
+.hero-img li a {
+	font-size: 4rem;
 	color: #f1a638;
 	text-decoration: underline;
+	text-underline-offset: 12px;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 
 .bg-orange {
 	background-color: #f1a638;
-	min-height: 66vh;
+	min-height: 300px;
 	padding: 30px;
 	display: flex;
 	align-items: center;
@@ -46,7 +46,7 @@ a {
 }
 .bg-orange .center {
 	font-family: 'Abel', sans-serif;
-	font-size: calc((2.2 - 1) * 1.2vh + 1rem);
+	font-size: 2rem;
 	font-weight: 100;
 	text-align: center;
 	margin: 10% 0;
@@ -77,11 +77,11 @@ a {
 	word-wrap: break-word;
 }
 .center-text h2:first-child {
-	font-size: 1.9em;
+	font-size: 2rem;
 	font-family: 'Abel';
 }
 .center-text h2 {
-	font-size: 1em;
+	font-size: 1.2rem;
 }
 .center-text .link {
 	text-decoration: underline;
@@ -151,13 +151,13 @@ a {
 	margin: 0;
 }
 .center h3 {
-	font-size: 2.2em;
+	font-size: 3rem;
 	font-weight: 400;
 }
 .directions {
 	background-color: #f1a638;
 	border: 2px solid black;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	padding: 10px;
 	width: 180px;
 	margin: 10%;
@@ -172,7 +172,7 @@ a {
 }
 
 .bg-orange2 .split {
-	font-size: 1.8em;
+	font-size: 3rem;
 }
 .left-split,
 .right-split {
@@ -187,5 +187,11 @@ a {
 	}
 	.bg-orange2 {
 		padding: 10% 3%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	html {
+		font-size: 11px;
 	}
 }

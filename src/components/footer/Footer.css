@@ -24,14 +24,16 @@ footer {
 
 .foot-info {
 	margin-top: 30px;
+	font-size: 1.4rem;
 }
 
 .foot-header {
 	margin: 30px 0;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .foot-links {
+	font-size: 1.4rem;
 	text-decoration: underline;
 	margin-bottom: 30px;
 }
@@ -44,8 +46,13 @@ footer {
 	}
 	.foot-links {
 		margin-bottom: 0;
+		font-size: 1rem;
 	}
 	.foot-info {
 		margin-top: 0;
+		font-size: 1rem;
+	}
+	.foot-header {
+		font-size: 2rem;
 	}
 }

@@ -8,7 +8,19 @@ function Home() {
 	return (
 		<Fragment>
 			{/* Header */}
-			<header className='hero-img'></header>
+			<header className='hero-img'>
+				<div className='hero-links'>
+					<li>
+						<a href='/'>Order Online</a>
+					</li>
+					<li>
+						<a href='/menu'>Menu</a>
+					</li>
+					<li>
+						<a href='/ourstory'>Our Story</a>
+					</li>
+				</div>
+			</header>
 
 			<section className='bg-orange'>
 				<div className='center'>

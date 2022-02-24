@@ -1,4 +1,8 @@
 .menu-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
 	padding: 30px 30px;
 	background: #314ba0;
 }
@@ -7,20 +11,21 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 	gap: 20px;
 }
 .menu-img {
-	width: 400px;
+	width: 70%;
 }
-.menu-wrapper span {
+.menu-container span {
 	background: black;
 	height: 1px;
-	width: 400px;
+	width: 50%;
 	position: relative;
 }
 
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) {
 	.menu-img {
-		width: auto;
+		width: 50%;
 	}
-}
+} */

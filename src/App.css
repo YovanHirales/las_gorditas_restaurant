@@ -89,9 +89,11 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+html {
+	font-size: 16px;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -109,8 +111,7 @@ section {
 }
 body {
 	line-height: 1;
-	font-size: 16px;
-	background-color: #e665c4;
+	background-color: white;
 }
 ol,
 ul {

@@ -14,13 +14,13 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className={isActive ? 'item first active' : 'item first'}>
-					<Link className='link' to='/menu'>
-						Menu
+					<Link className='link' to='/'>
+						Home
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
-					<Link className='link' to='/ourstory'>
-						Our Story
+					<Link className='link' to='/menu'>
+						Menu
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
