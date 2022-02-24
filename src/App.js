@@ -20,13 +20,10 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/las_gorditas_restaurant/menu' element={<Menu />} />
-				<Route
-					path='/las_gorditas_restaurant/ourstory'
-					element={<Ourstory />}
-				/>
-				<Route path='/las_gorditas_restaurant/photos' element={<Photos />} />
-				<Route path='/las_gorditas_restaurant/contact' element={<Contact />} />
+				<Route path='/menu' element={<Menu />} />
+				<Route path='/ourstory' element={<Ourstory />} />
+				<Route path='/photos' element={<Photos />} />
+				<Route path='/contact' element={<Contact />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
 			<Footer />
