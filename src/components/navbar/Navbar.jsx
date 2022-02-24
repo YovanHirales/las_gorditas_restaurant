@@ -5,35 +5,39 @@ import './Navbar.css';
 const Navbar = () => {
 	const [isActive, setIsActive] = useState(false);
 
+	const handleClick = () => {
+		setIsActive(!isActive);
+	};
+
 	return (
 		<nav>
 			<ul className='main'>
 				<li className='logo'>
-					<Link className='link' to='/'>
+					<Link className='link' to='/' onClick={isActive ? handleClick : ''}>
 						Las Gorditas
 					</Link>
 				</li>
 				<li className={isActive ? 'item first active' : 'item first'}>
-					<Link className='link' to='/'>
+					<Link className='link' to='/' onClick={isActive ? handleClick : ''}>
 						Home
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
-					<Link className='link' to='/menu'>
+					<Link className='link' to='/menu' onClick={handleClick}>
 						Menu
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
-					<Link className='link' to='/photos'>
+					<Link className='link' to='/photos' onClick={handleClick}>
 						Photos
 					</Link>
 				</li>
 				<li className={isActive ? 'item last active' : 'item last'}>
-					<Link className='link' to='/contact'>
+					<Link className='link' to='/contact' onClick={handleClick}>
 						Contact Us
 					</Link>
 				</li>
-				<li className='toggle' onClick={() => setIsActive(!isActive)}>
+				<li className='toggle' onClick={handleClick}>
 					<span className='bars'></span>
 				</li>
 			</ul>
