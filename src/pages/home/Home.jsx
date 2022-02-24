@@ -20,10 +20,10 @@ function Home() {
 						</a>
 					</li>
 					<li>
-						<a href='/menu'>Menu</a>
+						<Link to='/menu'>Menu</Link>
 					</li>
 					<li>
-						<a href='/ourstory'>Our Story</a>
+						<Link to='/ourstory'>Our Story</Link>
 					</li>
 				</div>
 			</header>
