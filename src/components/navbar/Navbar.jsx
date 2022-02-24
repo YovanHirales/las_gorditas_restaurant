@@ -9,27 +9,27 @@ const Navbar = () => {
 		<nav>
 			<ul className='main'>
 				<li className='logo'>
-					<Link className='link' to='/las_gorditas_restaurant'>
+					<Link className='link' to='/'>
 						Las Gorditas
 					</Link>
 				</li>
 				<li className={isActive ? 'item first active' : 'item first'}>
-					<Link className='link' to='/las_gorditas_restaurant/menu'>
+					<Link className='link' to='/menu'>
 						Menu
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
-					<Link className='link' to='/las_gorditas_restaurant/ourstory'>
+					<Link className='link' to='/ourstory'>
 						Our Story
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
-					<Link className='link' to='/las_gorditas_restaurant/photos'>
+					<Link className='link' to='/photos'>
 						Photos
 					</Link>
 				</li>
 				<li className={isActive ? 'item last active' : 'item last'}>
-					<Link className='link' to='/las_gorditas_restaurant/contact'>
+					<Link className='link' to='/contact'>
 						Contact Us
 					</Link>
 				</li>
