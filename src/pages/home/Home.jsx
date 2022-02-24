@@ -11,7 +11,13 @@ function Home() {
 			<header className='hero-img'>
 				<div className='hero-links'>
 					<li>
-						<a href='/'>Order Online</a>
+						<a
+							target='_blank'
+							rel='noopener noreferrer'
+							href='https://www.grubhub.com/restaurant/las-gorditas-840-n-decatur-blvd-las-vegas/3125275'
+						>
+							Order Online
+						</a>
 					</li>
 					<li>
 						<a href='/menu'>Menu</a>
