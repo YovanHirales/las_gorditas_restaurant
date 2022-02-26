@@ -52,7 +52,7 @@ function Home() {
 						</h2>
 						<br />
 						<Link className='link' to='/las_gorditas_restaurant/ourstory'>
-							Learn more about our story.
+							Learn more about our story
 						</Link>
 					</div>
 					<img
