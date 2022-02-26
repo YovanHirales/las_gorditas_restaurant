@@ -131,12 +131,9 @@ a {
 	height: 40vh;
 }
 
-@media all and (min-width: 520px) {
+@media all and (min-width: 820px) {
 	.bg-blue .split img {
 		height: 50vw;
-	}
-	.bg-blue .split .center-text {
-		padding-left: 6%;
 	}
 }
 
