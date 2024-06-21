@@ -23,6 +23,15 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className={isActive ? 'item active' : 'item'}>
+					<a
+						className='link'
+						href='https://order.online/business/las-gorditas-443664'
+						onClick={isActive ? handleClick : ''}
+					>
+						Order Online
+					</a>
+				</li>
+				<li className={isActive ? 'item active' : 'item'}>
 					<Link className='link' to='/menu' onClick={handleClick}>
 						Menu
 					</Link>

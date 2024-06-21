@@ -14,7 +14,7 @@ function Home() {
 						<a
 							target='_blank'
 							rel='noopener noreferrer'
-							href='https://www.grubhub.com/restaurant/las-gorditas-840-n-decatur-blvd-las-vegas/3125275'
+							href='https://order.online/business/las-gorditas-443664'
 						>
 							Order Online
 						</a>
