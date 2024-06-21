@@ -111,7 +111,7 @@ section {
 }
 body {
 	line-height: 1;
-	background-color: white;
+	background-color: #e665c4;
 }
 ol,
 ul {
@@ -132,3 +132,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* #root {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: #e665c4;
+}
+
+html {
+	height: 100%;
+} */

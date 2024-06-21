@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 8%;
+	padding: 7%;
 	font-family: 'Abel', 'monospace';
 	background-color: #e665c4; /*#e665c4*/
 }
@@ -28,6 +28,7 @@ h4 {
 
 .contact-page-info {
 	align-self: flex-start;
+	margin-bottom: 5%;
 }
 
 form {
@@ -35,6 +36,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	overflow: hidden;
 }
 
 label {
@@ -84,7 +86,7 @@ textarea {
 		width: 30rem;
 	}
 	form {
-		margin-left: 25rem;
+		width: 50vw;
 	}
 }
 

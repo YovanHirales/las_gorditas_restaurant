@@ -101,7 +101,7 @@ a {
 	.split {
 		flex-direction: row;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: space-between;
 	}
 	.bg-pink .split img {
 		height: 80vh;
@@ -133,7 +133,10 @@ a {
 
 @media all and (min-width: 820px) {
 	.bg-blue .split img {
-		height: 50vw;
+		height: 45vw;
+	}
+	.bg-blue h2 {
+		margin-right: 10%;
 	}
 }
 
