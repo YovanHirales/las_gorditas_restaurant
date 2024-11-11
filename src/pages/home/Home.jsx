@@ -97,9 +97,13 @@ function Home() {
 					</button>
 				</div>
 				<div className='split'>
+					<div className='left-split'>
+						<p>Sunday-Thursday</p>
+						<p>9:30am-8pm</p>
+					</div>
 					<div className='right-split'>
-						<p>Open Everyday</p>
-						<p>10am-8pm</p>
+						<p>Friday-Saturday</p>
+						<p>9:30am-8:30pm</p>
 					</div>
 				</div>
 			</section>
